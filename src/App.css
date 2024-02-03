@@ -118,4 +118,39 @@ ion-icon {
 .skill--title {
   text-align: center;
 }
-
+.project--heading {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.project--card {
+  margin-top: 40px;
+  height: 300px;
+  width: 35vw;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.project--name {
+  color: rgb(0, 151, 151);
+  font-size: 25px;
+  padding: 20px;
+  font-weight: 600;
+}
+.project--description {
+  font-size: 15px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-align: justify;
+  padding-right: 20px;
+}
+.project--tech{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  padding-top: 30px;
+}
+.code--here{
+  margin: 20px;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import ProjectCard from './projectCard';
 
 const Project = () => {
     return (
         <div>
-            <h1>Project</h1>
+            <h3 className='project--heading'>Project</h3>
+            <ProjectCard />
         </div>
     );
 }
