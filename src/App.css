@@ -1,3 +1,14 @@
+a {
+  color: black; /* Set the desired color for links */
+  text-decoration: none; /* Remove underline if needed */
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
 .container {
   width: 95vw;
   height: 95vh;
@@ -118,16 +129,24 @@ ion-icon {
 .skill--title {
   text-align: center;
 }
+.project--section {
+  height: 1350px;
+}
 .project--heading {
   text-align: center;
   position: relative;
   top: 20px;
 }
+.project--container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .project--card {
   margin-top: 40px;
-  height: 300px;
-  width: 35vw;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+  height: 270px;
+  width: 70vw;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
@@ -144,13 +163,44 @@ ion-icon {
   text-align: justify;
   padding-right: 20px;
 }
-.project--tech{
+.project--tech {
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 20px;
   padding-top: 30px;
 }
-.code--here{
+.code--here {
   margin: 20px;
+}
+.experience--heading {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.experience--card {
+  height: 600px;
+  width: 35vw;
+  margin-top: 40px;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.experience--name{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.experience--description{
+padding: 20px;
+}
+.skill--tag{
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #006f94;
+  color: white;
+  margin: 3px;
 }

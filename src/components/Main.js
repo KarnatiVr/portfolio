@@ -4,6 +4,7 @@ import Header from './Header'
 import About from './About'
 import Skills from './skills'
 import Project from './project'
+import Experience from './experience'
 const Main = () => {
   return (
     <div>
@@ -17,8 +18,11 @@ const Main = () => {
       <div className="container shadow-lg mt-3 bg-white rounded">
         <Skills />
       </div>
-      <div className="container shadow-lg mt-3 bg-white rounded">
+      <div className=" project--section container shadow-lg mt-3 bg-white rounded">
         <Project />
+      </div>
+      <div className="container shadow-lg mt-3 bg-white rounded">
+        <Experience />
       </div>
     </div>
   );
